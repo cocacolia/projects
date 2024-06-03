@@ -1,0 +1,503 @@
+body {
+        margin: 0;
+     padding: 0;
+}
+h1 {
+        color: black;
+        font-family: 'Euripides', monospace; 
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size:12.5vw;
+        border: solid black 0px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-left: 2.3vw;
+}
+p {
+        font-family: 'Space Mono', monospace; 
+        border: solid 1px;
+}
+.spacer1 {
+    width: 100%;
+    height: 10vh; 
+}
+.spacer2 {
+    width: 100%;
+    height: 15vh; 
+}
+
+p.intro {
+        padding: 25px 2.8vw 30px;
+        font-family: "Euripides"; 
+        font-size: 4vw;
+        line-height: 4.3vw;
+        color: black;
+        border: solid black 0px;
+        border-radius: 10px;
+        font-family: "Euripides";
+        
+    
+}
+body {
+        margin: 0;
+        padding: 0;
+}
+.flower {
+        width: 14vw;
+        display: inline;
+        cursor: url('cursor.png'), auto;
+        align-content: space-around;
+        
+}
+
+.me {
+        padding: 0px 20px 60px;
+        color: black;
+        margin: 0 10 0px;
+}
+.shape {
+        background-image: linear-gradient(blue, yellow);
+        width: 100%;
+        height: 25%;
+        font-size: 5vw;
+        font-family: "Space Mono";
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        color: aliceblue;
+        animation-name: shape;
+        animation-duration: 4s;
+        display:none;
+}
+    
+
+nav {
+        font-family: 'Euripides';
+        margin-top: 20px;
+        position: fixed;
+        width: 100%;
+        font-size: 5vw;
+        border: solid 0px;
+        display: flex;
+        justify-content: space-between;
+}
+.roww {
+    width: 100%; 
+    border: solid black 0px;
+    display: block;
+}
+.container-projects {
+    width: 100%;
+    border: solid silver 1px;
+    box-sizing: border-box;
+    height: 50vw;
+    border-radius: 17px;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0.5vw;
+}
+.item-name {
+    border: solid black 0px;
+    width: 35%;
+    height: 85%;
+    display: flex;
+    flex-flow: column;
+    justify-content:space-between;
+    margin: 2vw;   
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #a8e5f7;
+}
+
+.aa {
+    border: solid black 0px;
+    width: 45%;
+    margin: 2vw;
+    height: 85%;
+    
+}
+.item-img {
+    border: solid black 0px;
+    width: 45%;
+    margin: 2vw;
+    height: 85%;
+    object-fit: cover;
+    
+}
+.item-img1 {
+    border: solid black 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.nameee {
+    font-family: "Helvetica" ;
+    font-size: 25px;
+    text-transform: ;
+    line-height: 1.1;
+}
+
+.proj-im {
+    width: 70vw;
+}
+.block {
+    display: block;
+}
+.spacer {
+    width: 30%;
+    height: auto; 
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+
+.descr {
+    width: 100vw;
+    padding: 0vw;
+    box-sizing: border-box;
+    font-family: "Euripides";
+    font-size: 4vw;
+    margin: 0;  
+}
+
+
+.titleproj {
+    width: 100vw;
+    border: solid 1px black;
+    margin: 0;
+    vertical-align: top;
+    padding-top: 0;
+    padding: 0.2vw;
+}
+
+h2 {
+    font-family: "Helvetica";
+    font-size: 2vw;
+    line-height: 2.3vw;
+    padding-left: 2.5vw;
+    padding-top: 0;
+    vertical-align: top;
+}
+
+p2 {
+    font-family: "Helvetica";
+    font-size: 4vw;
+}
+
+/* This is for desktop. Use a media query to add a breakpoint at 800px: */
+@media screen and (min-width: 800px) {
+    .roww {
+        width: 100%;
+        display: flex;
+    }
+    .container-projects {
+        width: 100%;
+        height: 25vw;
+    }
+    h1 {
+        font-size: 12vw;
+    }
+    p.intro {
+        font-size:4vw;
+        line-height: inherit;
+        width: 95%;
+    }
+    .me {
+        font-size: 3vw;
+    }
+    
+    .descr {
+    width: 35vw;
+    padding: 0vw;
+    box-sizing: border-box;
+    font-family: "Euripides";
+    font-size: 1.5vw;
+    margin: 0;   
+}
+    .titleproj {
+    width: 65vw;
+    border: solid 1px black;
+    margin: 0;
+    vertical-align: top;
+    padding-top: 0;
+}
+    .block {
+    display: flex;
+}
+    p2 {
+    font-family: "Helvetica";
+    font-size: 2vw;
+}
+}
+
+
+
+
+.portrait {
+    width: 49vw;
+    margin-left: 1vw;
+    
+    
+}
+.aboutme {
+    display: flex;
+}
+.bio {
+    width: 49vw;
+    margin: 1vw;
+    
+}
+.hashtag {
+    color: #a8e5f7;
+    font-family: "Euripides";
+    font-size: 1.3vw;
+}
+
+@font-face {
+    font-family: 'euripidessemibold';
+    src: url('euripides-webfont.woff2') format('woff2'),
+         url('euripides-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.fullim {
+    width: 100vw;
+    overflow: hidden;
+    
+}
+
+button {
+    border-radius: 1.2vw;
+    height: 2.8vw;
+    width: 6.3vw;
+    font-family: "Euripides";
+    font-size: 1.2vw;
+    background-color: black;
+    color: white;
+}
+
+
+
+.portrait {
+    width: 20vw;
+    padding-bottom: 1vw;
+    padding-right: 2vw;
+    
+}
+.services {
+    font-family: "Euripides";
+    font-size:3vw;
+    margin: 2vw;
+}
+.foot {
+    font-family: "Helvetica";
+    font-size: 1.3vw;
+    display: flex;
+}
+
+.smallspict {
+    width: 19vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.smallspict2 {
+    width: 16vw;
+    left: 7vw;
+    top: 2450px;
+}
+
+.smallspict3 {
+    width: 19vw;
+    left: 70vw;
+    top: 3380px;
+}
+
+.smallspict4 {
+    width: 19vw;
+    left: 70vw;
+    top: 5550px;
+}
+
+.smallspict5 {
+    width: 19vw;
+    left: 7vw;
+    top: ;
+}
+
+.line-1 {
+    height: 4px;
+    background-color: #eeff33;
+    z-index: 1;
+}
+
+#fullimg2 {
+    width: 100vw;
+}
+
+.proj-im2 {
+    width:40vw;
+    left: 40vw;
+}
+
+
+
+
+body {
+  font-family: 'Euripides';
+  min-height: 1000px;
+}
+#columns {
+	column-width: 28vw;
+	column-gap: 1vw;
+    width: 90%;
+	max-width: 95vw;
+	margin: 50px auto;
+    cursor: url('cursor.png'), auto;
+}
+
+div#columns figure {
+	background: #fefefe;
+	border: 2px solid #fcfcfc;
+	box-shadow: 0 4px 5px rgba(34, 25, 25, 0.1);
+    border-radius: 1.5vw;
+	margin: 0 2px 15px;
+	padding: 0px;
+	padding-bottom: 10px;
+	transition: opacity .4s ease-in-out;
+    display: inline-block;
+    overflow: hidden;
+    column-break-inside: avoid;
+}
+
+div#columns figure img {
+	width: 100%; height: auto;
+	border-bottom: 0px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+    
+}
+
+div#columns figure figcaption {
+    font-size: .9rem;
+    color: #444;
+    line-height: 1.5;
+    margin: 1vw;
+}
+
+div#columns small { 
+  font-size: 1rem;
+  float: right; 
+  text-transform: uppercase;
+  color: #aaa;
+} 
+
+div#columns small a { 
+  color: #666; 
+  text-decoration: none; 
+  transition: .4s color;
+}
+
+div#columns:hover figure:not(:hover) {
+	
+}
+
+@media screen and (max-width: 750px) { 
+  #columns { column-gap: 0px; }
+  #columns figure { width: 100%; }
+}
+
+#aboutme {
+    font-size: 2vw;
+    font-family: Euripides;
+}
+
+#contacts {
+    display: inline-block;
+    
+}
+#aboutcont {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* This is slideshow */
+
+#slideshow {
+  text-align: center;
+  overflow: hidden;
+  height: 65vw;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 360vw;
+  -webkit-animation: slide 25s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 65vw;
+  width: 90vw;
+    object-fit: cover;
+}
+
+.slide:nth-child(1) {
+  background: #D93B65;
+}
+
+.slide:nth-child(2) {
+  background: #037E8C;
+}
+
+.slide:nth-child(3) {
+  background: #36BF66;
+}
+
+.slide:nth-child(4) {
+  background: #D9D055;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+.slidee {
+    width: 90vw;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -90vw;}
+  50% {margin-left: -90vw;}
+  60% {margin-left: -180vw;}
+  70% {margin-left: -180vw;}
+  80% {margin-left: -270vw;}
+  90% {margin-left: -270vw;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
