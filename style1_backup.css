@@ -4,7 +4,7 @@ body {
 }
 h1 {
         color: black;
-        font-family: 'Euripides', monospace; 
+        font-family: 'euripidessemibold', monospace; 
         font-weight: 400;
         text-transform: uppercase;
         font-size:12.5vw;
@@ -28,13 +28,13 @@ p {
 
 p.intro {
         padding: 25px 2.8vw 30px;
-        font-family: "Euripides"; 
+        font-family: "euripidessemibold"; 
         font-size: 4vw;
         line-height: 4.3vw;
         color: black;
         border: solid black 0px;
         border-radius: 10px;
-        font-family: "Euripides";
+        font-family: "euripidessemibold";
         
     
 }
@@ -72,7 +72,7 @@ body {
     
 
 nav {
-        font-family: 'Euripides';
+        font-family: 'euripidessemibold';
         margin-top: 20px;
         position: fixed;
         width: 100%;
