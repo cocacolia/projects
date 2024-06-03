@@ -4,7 +4,7 @@ body {
 }
 h1 {
         color: black;
-        font-family: 'euripidessemibold', monospace; 
+        font-family: 'euripidessemibold'; 
         font-weight: 400;
         text-transform: uppercase;
         font-size:12.5vw;
@@ -14,7 +14,7 @@ h1 {
         padding-left: 2.3vw;
 }
 p {
-        font-family: 'Space Mono', monospace; 
+        font-family: 'Space Mono'; 
         border: solid 1px;
 }
 .spacer1 {
